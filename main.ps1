@@ -1,2 +1,4 @@
 Add-Type -AssemblyName PresentationCore,PresentationFramework
-$Result = [System.Windows.MessageBox]::Show('Get Amongused' ,'OOF')
+[string]$query = Get Amongused
+[string]$title = oof
+$Result = [System.Windows.MessageBox]::Show($query. $title)
